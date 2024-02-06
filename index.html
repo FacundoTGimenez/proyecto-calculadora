@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <input class="input-number" type="text" placeholder="Numero" id="valor1">
+        <input class="input-number" type="text" placeholder="Numero" id="valor2">
+        <br>
+        <input class="input-text" type="text" id="resultado">
+        <br>
+        <br>
+        <button class="operation-button" onclick="sumar()">SUMA</button>
+        <button class="operation-button" onclick="restar()">RESTA</button>
+        <button class="operation-button" onclick="dividir()">DIVISON</button>
+        <button class="operation-button" onclick="multiplicar()">MULTIPLICACION</button>
+        <br><br>
+        <button class="operation-button" onclick="raiz()">RAIZ CUADRADA</button>
+        <button class="operation-button" onclick="potencia()">POTENCIA</button>
+        <button class="operation-button" onclick="absoluto()">VALOR ABSOLUTO</button>
+        <button class="operation-button" onclick="random()">RANDOM</button>
+        <br><br>
+        <button class="operation-button" onclick="redondear()">ROUND</button>
+        <button class="operation-button" onclick="floor()">FLOOR</button>
+        <button class="operation-button" onclick="ceil()">CEIL</button>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
